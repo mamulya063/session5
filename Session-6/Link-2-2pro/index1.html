@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<script>
+    let myInt = 5;
+let myFloat = 6.667;
+myInt;
+myFloat;
+console.log(myInt);
+console.log(myFloat);
+let lotsOfDecimal = 1.766584958675746364;
+lotsOfDecimal;
+let twoDecimalPlaces = lotsOfDecimal.toFixed(2);
+twoDecimalPlaces;
+console.log(lotsOfDecimal);
+console.log(twoDecimalPlaces);
+let myNumber = '74';
+myNumber + 3;
+console.log(myNumber);
+console.log(myNumber+3);
+let num1 = 10;
+let num2 = 50;
+9 * num1;
+num1 ** 3;
+num2 / num1;
+console.log(num1);
+console.log(num2);
+console.log(9*num1);
+console.log(num1**3);
+let num3 = 4;
+num3++;
+num3;
+console.log(num3);
+console.log(num3++);
+let num4 = 6;
+num4--;
+num4;
+console.log(num4);
+let x = 3;
+let y = 4; 
+x = y; 
+console.log(x);
+console.log(y);
+let v = 3;
+let w = 4; 
+v *= w;
+console.log(v);
+document.addEventListener("DOMContentLoaded", function() { 
+function updateBtn() {
+  if (btn.textContent === 'Start machine') {
+    btn.textContent = 'Stop machine';
+    txt.textContent = 'The machine has started!';
+  } else  { 
+    btn.textContent = 'Start machine';
+    txt.textContent = 'The machine is stopped.';
+    
+  }
+}
+const btn = document.querySelector('button');
+const txt = document.querySelector('p');
+btn.addEventListener('click', updateBtn);});
+</script> 
+<button>Start machine</button>
+<p>The machine is stopped.</p>
+</html>
